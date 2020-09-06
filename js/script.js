@@ -1,4 +1,4 @@
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?');
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -6,7 +6,7 @@ const personalMovieDB = {
     actors: {},
     genres: [],
     privat: false
-};
+}; //обьект который содержит свойства 
 
 const a = prompt('Один из последних просмотренных фильмов?', ''),
     b = prompt('На сколько оцените его?', ''),
